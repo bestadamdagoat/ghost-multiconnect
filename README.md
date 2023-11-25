@@ -33,4 +33,6 @@ The API is identical to the normal API, so it should be compatible with any plug
 
 ## Finding the MAC Address
 
-The MAC address of the GMC is the first 12 digits of the serial number of the device. This can be found in settings under Bluetooth or Internet Access.
+The MAC address of the GMC is the first 12 digits of the serial number of the device. This can be found in settings under Network setup -> Bluetooth information or Internet.
+
+You can also find it by opening a terminal and running `arp -a xxx.xxx.x.xxx` where xxx.xxx.x.xxx is the IP of your GMC device (can be found in settings under Network setup -> Wi-Fi). It'll be listed under physical address.
